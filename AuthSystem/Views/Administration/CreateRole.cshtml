@@ -1,11 +1,10 @@
-﻿@page
-@model CreateRoleViewModel
+﻿@model CreateRoleViewModel
 @{
-    ViewData["Title"] = "Create New Role";
-    Layout = "~/Areas/Identity/Pages/_AuthLayout.cshtml";
+    ViewBag.Title = "CreateRole";
 }
 
 
+<h1>Create Role</h1>
 <form method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="row">
@@ -17,7 +16,7 @@
             </div>
         </div>
     </div>
-    <button type="submit" class="btn btn-primary">Create New Role</button>
+    <button style="width:auto" type="submit" class="btn btn-primary">Create New Role</button>
 </form>
 
 
