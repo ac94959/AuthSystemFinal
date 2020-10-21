@@ -16,5 +16,6 @@ namespace AuthSystem.Areas.Identity.Data
         [PersonalData]
         [Column(TypeName = "nvarchar(100)")]
         public string LastName { get; set; }
+        public string City { get; internal set; }
     }
 }

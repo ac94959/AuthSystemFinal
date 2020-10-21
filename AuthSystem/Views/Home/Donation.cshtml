@@ -1,0 +1,86 @@
+﻿
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="Donation">
+        <h1 class="w3-center">Make an online donation to Blind Low Vision NZ</h1>
+        <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+        <div style="margin-top:48px">
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+            <br>
+            <div action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Donation" required name="Donation"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Please use it" required name="options"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Phone Number" required name="Phone Number"></p>
+                <div>
+                    <h4>Billing address</h4>
+                    <p><input class="w3-input w3-border" type="text" placeholder="Address" required name="Address"></p>
+                    <p><input class="w3-input w3-border" type="text" placeholder="Suburb" required name="Suburb"></p>
+                    <p><input class="w3-input w3-border" type="text" placeholder="City" required name="City"></p>
+                    <p><input class="w3-input w3-border" type="text" placeholder="Post code" required name="Post code"></p>
+                </div>
+                <div class="creditCardForm">
+                    <div class="heading">
+                        <h1>Confirm Purchase</h1>
+                    </div>
+                    <div class="payment">
+                            <div class="form-group owner">
+                                <label for="owner">Owner</label>
+                                <input type="text" class="form-control" id="owner">
+                            </div>
+                            <div class="form-group CVV">
+                                <label for="cvv">CVV</label>
+                                <input type="text" class="form-control" id="cvv">
+                            </div>
+                            <div class="form-group" id="card-number-field">
+                                <label for="cardNumber">Card Number</label>
+                                <input type="text" class="form-control" id="cardNumber">
+                            </div>
+                            <div class="form-group" id="expiration-date">
+                                <label>Expiration Date</label>
+                                <select>
+                                    <option value="01">January</option>
+                                    <option value="02">February </option>
+                                    <option value="03">March</option>
+                                    <option value="04">April</option>
+                                    <option value="05">May</option>
+                                    <option value="06">June</option>
+                                    <option value="07">July</option>
+                                    <option value="08">August</option>
+                                    <option value="09">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+                                <select>
+                                    <option value="16"> 2020</option>
+                                    <option value="17"> 2021</option>
+                                    <option value="18"> 2022</option>
+                                    <option value="19"> 2023</option>
+                                    <option value="20"> 2024</option>
+                                    <option value="21"> 2025</option>
+                                </select>
+                            </div>
+                            <div class="form-group" id="credit_cards">
+                                <img src="~/images/Visa image.png" class="img-fluid" style="width:158.725px; height:53.455px;" id="visa">
+                                <img src="~/images/MasterCard.jpg" class="img-fluid" style="width:158.725px; height:53.455px;" id="mastercard">
+                                <img src="~/images/american_express logo.jpg" class="img-fluid" style="width:158.725px; height:106.91px;" id="amex">
+                            </div>
+                            <div class="form-group" id="pay-now">
+                                <button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                </div>
+        </div>
+        <p>
+            <button class="w3-button w3-black" type="submit">
+                <i class="fa fa-paper-plane"></i> Donate
+            </button>
+
+
+        </p>
+
+    </div>
